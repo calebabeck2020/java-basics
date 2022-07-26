@@ -15,14 +15,14 @@ public class BasicsDriverPart2 {
                 System.out.println(i + " is ODD");
             }
         }
-        
-        System.out.println(result++); //increments AFTER execution of the line
-        System.out.println(result--);
-        System.out.println(result += 2);
-        System.out.println(result -= 2);
-        System.out.println(result *= 2);
-        System.out.println(result /= 2);
-        System.out.println(result %= 2);
+
+        System.out.println(result++); // increments AFTER execution of the line, prints 20
+        System.out.println(result--); // increments AFTER execution of the line, prints 21
+        System.out.println(result += 2); // prints 22
+        System.out.println(result -= 2); // prints 20
+        System.out.println(result *= 2); // prints 40
+        System.out.println(result /= 2); // prints 20
+        System.out.println(result %= 2); // prints 0
 
 
 
