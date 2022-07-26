@@ -15,6 +15,15 @@ public class BasicsDriverPart2 {
                 System.out.println(i + " is ODD");
             }
         }
+        
+        System.out.println(result++); //increments AFTER execution of the line
+        System.out.println(result--);
+        System.out.println(result += 2);
+        System.out.println(result -= 2);
+        System.out.println(result *= 2);
+        System.out.println(result /= 2);
+        System.out.println(result %= 2);
+
 
 
     }
